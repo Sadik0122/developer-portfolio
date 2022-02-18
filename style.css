@@ -7,7 +7,7 @@ h1{
    font-size: 50px;
 }
 .orange-color{
-   color:rgba(255, 200, 18, 0.74);
+   color:rgba(235, 163, 10, 0.74);
 }
 .flexible-container{
    display:flex;
@@ -45,4 +45,35 @@ h1{
 }
 .web-developer{
    color:rgba(206, 186, 11, 0.863);
+}
+.experience-level{
+   box-shadow: 5px 5px 30px rgb(68, 67, 67);
+   padding-left: 25px;
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   border-radius: 15px;
+   
+}
+.experience-area{
+   background-image: url(developer-portfolio-master/images/sun.png);
+   background-repeat: no-repeat;
+   background-position: left;
+}
+.h11{
+   font-size: 40px;
+}
+#web-developer-experience{
+   border-left: 5px solid;
+   border-image: linear-gradient(orange, tomato);
+   border-image-slice: 1;
+}
+#baby-web-developer-experience{
+   border-left: 5px solid;
+   border-image: linear-gradient(blue, cyan);
+   border-image-slice: 1;
+}
+footer p{
+   text-align: center;
+   font-weight: bold;
 }
